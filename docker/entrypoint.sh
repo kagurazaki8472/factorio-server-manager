@@ -19,7 +19,7 @@ random_pass() {
 }
 
 install_game() {
-    curl --location "https://www.factorio.com/get-download/${FACTORIO_VERSION}/headless/linux64" \
+    curl --location "https://factorio.com/get-download/stable/headless/linux64" \
          --output /tmp/factorio_${FACTORIO_VERSION}.tar.xz
     tar -xf /tmp/factorio_${FACTORIO_VERSION}.tar.xz
     rm /tmp/factorio_${FACTORIO_VERSION}.tar.xz

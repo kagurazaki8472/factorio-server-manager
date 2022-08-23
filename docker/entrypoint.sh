@@ -1,5 +1,5 @@
 #!/bin/sh
-
+#TEST
 init_config() {
     jq_cmd='.'
 
